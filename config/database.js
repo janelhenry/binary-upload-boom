@@ -17,3 +17,13 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
+//added this due to tailwind form in profile.ejs
+//tailwind.config.js
+//module.exports = {
+  // ...
+ // plugins: [
+    // ...
+   // require('@tailwindcss/forms'),
+//  ],
+//}

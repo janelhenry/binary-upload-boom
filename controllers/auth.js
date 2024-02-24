@@ -116,3 +116,9 @@ exports.postSignup = (req, res, next) => {
     }
   );
 };
+// authController.js trying to make enroll work
+//exports.postEnroll = (req, res) => {
+  // Implement the logic to handle the form submission
+  // This is where you process the form data and save it to the database, for example
+ // res.send('Form submitted successfully'); // You can replace this with your logic
+//};
